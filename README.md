@@ -21,7 +21,7 @@ The focus of this task was a classic **“Product Mix Problem”**, where a fact
 Using Python and the PuLP library, I created a Linear Programming (LP) model to solve this challenge and documented everything in a Jupyter Notebook (optimisation_task4.ipynb). The entire process from problem understanding to modelling, solving, and visualizing was new to me, and it really helped me learn step by step.
 
 ## Project Workflow
-#### 1. Problem Details
+### 1. Problem Details
 
 | Product | Machine Time (hrs/unit) | Raw Material (kg/unit) | Labor Hours (hrs/unit) | Profit (\$/unit) | Max Demand (units/week) |
 | ------- | ----------------------- | ---------------------- | ---------------------- | ---------------- | ----------------------- |
@@ -29,7 +29,7 @@ Using Python and the PuLP library, I created a Linear Programming (LP) model to 
 | B       | 2                       | 2                      | 3                      | 10               | 35                      |
 | C       | 4                       | 1                      | 2                      | 15               | 30                      |
 
-### Resource Constraints per Week:
+#### Resource Constraints per Week:
 
 * Machine Time: 200 hours
 * Raw Material: 150 kg
@@ -38,7 +38,7 @@ Using Python and the PuLP library, I created a Linear Programming (LP) model to 
 The objective was to figure out how many units of A, B, and C to produce so that **profit is maximized**, while still meeting the above constraints.
 
 
-## 2. How I Solved It
+### 2. How I Solved It
 
 1. **Mathematical Modelling:**
    I used Linear Programming to form the problem. The decision variables were the number of units of each product. The objective function maximized profit, and the constraints ensured we didn’t exceed resource limits or demand.
@@ -75,7 +75,7 @@ The objective was to figure out how many units of A, B, and C to produce so that
 
      x_C ≤ 30
 
-#### 3. **Implementation in Python:**
+### 3. **Implementation in Python:**
 
 Using the PuLP library, I:
 
@@ -90,7 +90,7 @@ Using the PuLP library, I:
 This was done inside a Jupyter Notebook, which allowed me to document each step and see results interactively.
 
 
-#### 4. **Result Analysis:**
+### 4. **Result Analysis:**
 Once the model was solved:
 
 * I retrieved the optimal values for x_A, x_B, and x_C
