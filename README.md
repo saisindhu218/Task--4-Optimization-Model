@@ -20,8 +20,8 @@ The focus of this task was a classic **“Product Mix Problem”**, where a fact
 
 Using Python and the PuLP library, I created a Linear Programming (LP) model to solve this challenge and documented everything in a Jupyter Notebook (optimisation_task4.ipynb). The entire process from problem understanding to modelling, solving, and visualizing was new to me, and it really helped me learn step by step.
 
-
-## Problem Details
+## Project Workflow
+#### 1. Problem Details
 
 | Product | Machine Time (hrs/unit) | Raw Material (kg/unit) | Labor Hours (hrs/unit) | Profit (\$/unit) | Max Demand (units/week) |
 | ------- | ----------------------- | ---------------------- | ---------------------- | ---------------- | ----------------------- |
@@ -38,7 +38,7 @@ Using Python and the PuLP library, I created a Linear Programming (LP) model to 
 The objective was to figure out how many units of A, B, and C to produce so that **profit is maximized**, while still meeting the above constraints.
 
 
-## How I Solved It
+## 2. How I Solved It
 
 1. **Mathematical Modelling:**
    I used Linear Programming to form the problem. The decision variables were the number of units of each product. The objective function maximized profit, and the constraints ensured we didn’t exceed resource limits or demand.
@@ -75,12 +75,33 @@ The objective was to figure out how many units of A, B, and C to produce so that
 
      x_C ≤ 30
 
-3. **Implementation in Python:**
-   Using the PuLP library, I created and solved the model in Python. The Jupyter Notebook format helped me write explanations and results alongside the code. I also used matplotlib for visualization and pandas for cleaner data handling.
+#### 3. **Implementation in Python:**
 
-4. **Result Analysis:**
-   After solving the model, I got the optimal production quantities and the maximum achievable profit. I also analyzed resource utilization, checked which constraints were tight (fully used), and even learned about shadow prices a new but interesting concept!
+Using the PuLP library, I:
 
+* Defined the LP problem and objective
+
+* Added all constraints
+
+* Set variable bounds
+
+* Solved the model using PuLP’s built-in solver
+
+This was done inside a Jupyter Notebook, which allowed me to document each step and see results interactively.
+
+
+#### 4. **Result Analysis:**
+Once the model was solved:
+
+* I retrieved the optimal values for x_A, x_B, and x_C
+
+* Calculated the maximum profit
+
+* Evaluated how much of each resource was used
+
+* Identified binding constraints (fully used) and slack in others
+
+* Explored shadow prices to understand how much additional profit could be earned by increasing resource availability
 
 ## **What I Learned**
 
