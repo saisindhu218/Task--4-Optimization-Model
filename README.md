@@ -46,7 +46,9 @@ The objective was to figure out how many units of A, B, and C to produce so that
 **Decision Variables:**
 Let:
 x_A = units of Product A to produce
+
 x_B = units of Product B to produce
+
 x_C = units of Product C to produce
 (All variables are non-negative integers)
 
@@ -56,12 +58,16 @@ Z = 12x_A + 10x_B + 15x_C
 
 **Constraints:**
 Machine Time: 3x_A + 2x_B + 4x_C ≤ 200
+
 Raw Material: 1x_A + 2x_B + 1x_C ≤ 150
+
 Labor Hours: 2x_A + 3x_B + 2x_C ≤ 180
 
 **Demand Limits:**
 x_A ≤ 40
+
 x_B ≤ 35
+
 x_C ≤ 30
 
 3. **Implementation in Python:**
