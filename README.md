@@ -130,7 +130,7 @@ One of the biggest lessons I learned is that optimization is not just about math
 This task helped me grow more confident in working with Jupyter Notebooks, libraries like pandas and matplotlib, and visualizing data in a way that others can understand easily. It improved both my technical and communication skills, especially in presenting complex results in a clear and logical format.Overall, this project helped me experience what it’s like to solve business problems with data science tools. Even as a beginner, I was able to build something useful that can guide real production decisions. With the help of Python and LP modelling, a company can now decide how to produce efficiently, maximize profits, and plan better instead of relying on guesswork.Completing this project has motivated me to explore more in operations research, supply chain analytics, and optimization, and I’m excited to continue building my skills in this direction.
 
 ## Output
-The notebook creation be like:
+The Jupyter Notebook creation be like:
 ![Image](https://github.com/user-attachments/assets/67bd0b55-2645-49f4-abe0-298ec2a98fbe)
 
 The optimization solution got excecuted
