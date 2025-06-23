@@ -107,3 +107,14 @@ This project gave me my first real experience in applying data science to solve 
 One of the biggest lessons I learned is that optimization is not just about math or coding it's about solving real-world problems in a smart and structured way. Through this project, I saw how companies can use data science tools to make better decisions, especially when resources are limited. Instead of guessing production levels, a factory can now rely on a model like this to produce efficiently, meet market demand, and maximize profits.I also discovered how powerful sensitivity analysis and shadow prices can be in understanding resource bottlenecks. These insights go beyond just solving for numbers they support strategic planning and help businesses see the value of investing in the right resources.
 
 This task helped me grow more confident in working with Jupyter Notebooks, libraries like pandas and matplotlib, and visualizing data in a way that others can understand easily. It improved both my technical and communication skills, especially in presenting complex results in a clear and logical format.Overall, this project helped me experience what it’s like to solve business problems with data science tools. Even as a beginner, I was able to build something useful that can guide real production decisions. With the help of Python and LP modelling, a company can now decide how to produce efficiently, maximize profits, and plan better instead of relying on guesswork.Completing this project has motivated me to explore more in operations research, supply chain analytics, and optimization, and I’m excited to continue building my skills in this direction.
+
+## Output
+The notebook creation be like:
+![Image](https://github.com/user-attachments/assets/67bd0b55-2645-49f4-abe0-298ec2a98fbe)
+
+The optimization solution got excecuted
+![Image](https://github.com/user-attachments/assets/e384a54e-4827-47f7-b068-b032346becab)
+
+Visualization of the Resources we used
+![Image](https://github.com/user-attachments/assets/154b4b83-3f87-49ca-a425-2e9666634df8)
+
